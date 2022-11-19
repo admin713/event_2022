@@ -14,27 +14,26 @@ ul, li {
 }
 
 body {
+  color: #fff;
+  background: #0e121b;
   padding: 10px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   /* font-size: clamp(1rem, 1.3rem, 1.3rem); */
 }
 
 button {
+  padding: .75rem 1.25rem;
+  background: linear-gradient(273.31deg, #7F1CFC 0.79%, #FF1C60 98.6%);
+  color: inherit;
+  border: none;
+  border-radius: 50px;
   font-size: inherit;
 }
 
 header {
+  position: relative;
   padding: 65px 0;
   display: flex;
   justify-content: space-between;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-nav > ul {
-  display: flex;
-}
